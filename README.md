@@ -1,6 +1,7 @@
 
 <h1 align="center" >  Rock, Paper, Scissors </h1>
-<h3 align="center">A challenge from Frontend Mentor </h3>  
+<h3 align="center">A challenge from Frontend Mentor </h3>
+<h4 align="center"><a href="https://rock-paper-scissors-javascript-mini-project.netlify.app/"> ➤ Click to Play</a></h4>
 
 ![-----------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
