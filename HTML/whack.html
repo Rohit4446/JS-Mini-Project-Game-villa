@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whack a mole</title>
+    <link rel="stylesheet" href="../CSS/whack.css" />
+  </head>
+  <body>
+    <header>
+      <h2 id="logo">Whack a mole</h2>
+
+      <select title="level" id="select">
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+      <h2 class="selected_lavel"></h2>
+      <div class="last_score">
+        <h2 id="last-score"></h2>
+      </div>
+      <button id="back"> <a href="../index.html">Go To Dashboard &lt;&lt;&lt;</a></button>
+    </header>
+
+    <div class="main">
+      <div class="contaniner">
+        
+        <div class="square" id=""></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square">
+          <img
+            id="yes"
+            src="https://raw.githubusercontent.com/Rohit4446/Whack-a-mole-game/master/image/mole.png"
+            alt="I am Mole"
+          />
+        </div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+
+      <div class="side">
+        <h1 class="massage"></h1>
+        <div class="upper">
+          <h3 id="score">0</h3>
+          <h3 id="time-left">01:00</h3>
+        </div>
+
+        <div class="lower">
+          <button id="start">Start</button>
+          <button id="reset" disabled>Reset</button>
+        </div>
+      </div>
+    </div>
+   
+    <script src="../JS/whack.js"></script>
+  </body>
+</html>

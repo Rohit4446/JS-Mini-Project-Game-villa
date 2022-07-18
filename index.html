@@ -1,51 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Rock, Paper, Scissors</title>
-  <link rel="stylesheet" href="styles.css">
- 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME-VILLA</title>
+    <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
-
- <div class="main">
-    <div class="header">
-           <div id="gameName">
-          <img src="./images/logo.svg" alt="">
-      </div>
-      <div id="scoreboard">
-        <h3 id="score">SCORE</h3>
-        <h1 id="totalScore">00</h1>
-      </div>
-   </div>
-   <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <img src="./images/image-rules.svg" alt="">
-      </div>
-    </div>
-        <div class="infotextOuter">
-          <div class="infotext">
-            <h2 id="yChoice">Your Choice</h2>
-            <div class="reset">
-             <h3 id="result"></h3>
-             <button class="playAgain">PLAY AGAIN</button>
+    <div class="container">
+        <header><h1>GAME VILLA </h1><h4>by Rohit Bahuguna</h4></header>
+    <div class="main">
+        <section class="left">
+            <div class="image">
+                <img src="./images/giphy.gif" alt="welcome">
             </div>
-            <h2 id="cChoice">Computer's Choice</h2>
-          </div>
+        </section>
+        <section class="right">
+            <h1 class="select">Select a Game to Play</h1>
+            <ul>
+            <li><a href="./HTML/app.html">Rock Paper Scissors</a></li>
+            <li><a href="./HTML/whack.html">Whack a Mole</a></li>
+            <li><a href="./HTML/Tik-tak-to.html">Tik Tac To</a></li>
+            <li><a href="./HTML/Deck-A-Card.html">Deck of Cards</a></li>
+            <p id="soon">New Games Coming Soon...</p>
+        </ul>
+        <div class="author">
+
         </div>
-   <div class="game">
-      <div class="gamelogo">
-        <img class="play rock" id="rock" src="./images/icon-rock.svg" alt="">
-        <img class="play paper " id="paper" src="./images/icon-paper.svg" alt="">
-        <img class="play scissors " id="scissors" src="./images/icon-scissors.svg" alt="">
-      </div>
-     
-   </div>
-   <button id="myBtn">RULES</button>
- </div>
-  <script src="App.js"></script>
+    </section>
+    </div>
+    <footer>footer</footer>
+    </div>
 </body>
 </html>

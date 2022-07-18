@@ -64,6 +64,24 @@ body {
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
 }
+
+#back {
+    align-self: flex-end;
+    margin: 50px;
+    border: 1px solid white;
+   
+    background-color: #1A2749;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: large;
+}
+#back a {
+    text-decoration: none;
+    color: white;
+}
+#back:hover {
+    cursor: pointer;
+}
 .modal {
     display: none; 
   position: fixed; 
@@ -72,8 +90,6 @@ body {
  
 }
 
-  
-  
   .modal-content {
     background-color: #fefefe;
     border: 1px solid white;
@@ -168,3 +184,6 @@ body {
      padding: 10px;
      border-radius: 8px;
  }
+
+ 
+
