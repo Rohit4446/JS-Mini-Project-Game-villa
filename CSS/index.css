@@ -118,10 +118,15 @@ footer {
   border: 2px solid #FFEE6F;
   border-radius: 25px;
 }
+.right ul li{
+  text-decoration: none;
+  list-style: none;
+}
 
 .right ul li a:hover {
   background-color: black;
   color: white;
+
 }
 
  #soon {
